@@ -258,7 +258,7 @@ def follow_time(s, obj):
 def like_time(s):
 	while 1:
 		for med in ready_to_like:
-			like_media_list(s, med):
+			like_media_list(s, med)
 			ready_to_like.remove(med)
 			time.sleep(5)
 		time.sleep(5)
@@ -296,13 +296,13 @@ try:
 		media = get_media_by_tag(s, str(tag))
 		for med in media:
 			if med not in ready_to_like:
-				read_to_like.append(med)
+				ready_to_like.append(med)
 		print('[' + str(datetime.now().date()) + '|' + str(datetime.now().time()) + '] ['+T+'ACTION'+W+'] Media loaded -> ' + str(len(ready_to_like)))
 			
 		# GET MEDIA OWNERS
 		owners = get_media_info(media)
 		for own in owners:
-			if own not in read_to_follow:
+			if own not in ready_to_follow:
 				ready_to_follow.append(own)
 		print('[' + str(datetime.now().date()) + '|' + str(datetime.now().time()) + '] ['+T+'ACTION'+W+'] Media owners found -> ' + str(len(ready_to_follow)))
 	
