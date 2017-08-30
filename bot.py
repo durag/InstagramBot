@@ -258,7 +258,7 @@ def follow_time(s, obj):
 def like_time(s):
 	while 1:
 		for med in ready_to_like:
-			def like_media_list(s, med):
+			like_media_list(s, med):
 			ready_to_like.remove(med)
 			time.sleep(5)
 		time.sleep(5)
