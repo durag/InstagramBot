@@ -98,9 +98,9 @@ def get_media_by_tag(s, tag):
 		media = list(data['tag']['media']['nodes'])
 		return media
 	except Exception, e:
-		media_by_tag = []
+		media = []
 		print('[' + str(datetime.now().date()) + '|' + str(datetime.now().time()) + '] ['+R+'ERROR'+W+'] There was an error -> ' + str(e))
-
+		return media
 
 # FUNCTION TO GET MEDIA INFO BEFORE LIKING
 def get_media_info(media):
@@ -146,8 +146,8 @@ def follow_owner_list(s, owner, obj):
 
 # FUNCTION TO RESOLVE USERNAME TO INSTAGRAM ID
 def get_user_id_by_login(s, username):
-	info_url = 'https://www.instagram.com/' + str(username) + '/?__a=1'
-	info = s.get(info_url)
+	url = 'https://www.instagram.com/' + str(username) + '/?__a=1'
+	info = s.get(url)
 	data = json.loads(info.text)
 	id = data['user']['id']
 	print('[' + str(datetime.now().date()) + '|' + str(datetime.now().time()) + '] ['+C+'INFO'+W+'] Instagram ID -> ' + str(id))
