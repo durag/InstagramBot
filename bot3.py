@@ -360,7 +360,7 @@ try:
 
 	cycle_grace_time_s = (((24 - (( 60 * (x / 120)) / 60)) * 60) * 60) / (x / 120)
 
-	print('[' + str(datetime.now().date()) + '|' + str(datetime.now().time()) + '] ['+R+'INFO'+W+'] There will be a total of ' + str(x/120) + ' cycles')
+	print('[' + str(datetime.now().date()) + '|' + str(datetime.now().time()) + '] ['+C+'INFO'+W+'] There will be a total of ' + str(x/120) + ' cycles')
 	print('[' + str(datetime.now().date()) + '|' + str(datetime.now().time()) + '] ['+C+'INFO'+W+'] You cyclic grace period will be -> ' + str(cycle_grace_time_s) + ' seconds')
 
 
@@ -409,7 +409,7 @@ try:
 		
 				#print('Waiting a minute...')
 				time.sleep(10)
-			print('[' + str(datetime.now().date()) + '|' + str(datetime.now().time()) + '] ['+G+'NOTICE'+W+'] Finished retrieving all media | Waiting for next cycle to retrieve more)
+			print('[' + str(datetime.now().date()) + '|' + str(datetime.now().time()) + '] ['+G+'NOTICE'+W+'] Finished retrieving all media | Waiting for next cycle to retrieve more')
 		else:
 			time.sleep(30)
 
