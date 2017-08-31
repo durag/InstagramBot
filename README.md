@@ -73,8 +73,8 @@ It will also show you how many pictures it has liked, how many pages it has foll
 # Future Updates
 At the moment this script will run through a list of tags, like the pictures associated with them, and following the pages who own those pictures. Once the list of tags is complete, the script will finish.
 
-My next update to this script will be to make it so the script will reload those tags upon completion so it will continue to like and follow and never stop unless interrupted by the user which will make it completely automated.
+```bot3.py``` DONE(My next update to this script will be to make it so the script will reload those tags upon completion so it will continue to like and follow and never stop unless interrupted by the user which will make it completely automated)
 
-I also intend to make the script continuously reload the ```tags.txt``` file so a user could add tags on-the-fly to ensure the bot will pull new tags even from a single run, making the bot more dynamic.
+```bot3.py``` DONE(I also intend to make the script continuously reload the ```tags.txt``` file so a user could add tags on-the-fly to ensure the bot will pull new tags even from a single run, making the bot more dynamic)
 
 I would also like this script to keep track of whether or not a page which the bot has followed, follows back.
