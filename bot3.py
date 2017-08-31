@@ -287,7 +287,7 @@ def follow_time(s, obj):
 				time.sleep(30)
 			elif count >= 120:
 				count = 0
-				print('[' + str(datetime.now().date()) + '|' + str(datetime.now().time()) + '] ['+G+'NOTICE'+W+'] Finished FOLLOW cycle | waiting ' + str(cycle_grace_time_s) until next cycle'))
+				print('[' + str(datetime.now().date()) + '|' + str(datetime.now().time()) + '] ['+G+'NOTICE'+W+'] Finished FOLLOW cycle | waiting ' + str(cycle_grace_time_s) + ' until next cycle'))
 				time.sleep(cycle_grace_time_s)
 		time.sleep(5)
 		if following_bool == True:
@@ -310,7 +310,7 @@ def like_time(s):
 				time.sleep(5)
 			elif count >= 120:
 				count = 0
-				print('[' + str(datetime.now().date()) + '|' + str(datetime.now().time()) + '] ['+G+'NOTICE'+W+'] Finished LIKE cycle | waiting ' + str(cycle_grace_time_s) until next cycle'))
+				print('[' + str(datetime.now().date()) + '|' + str(datetime.now().time()) + '] ['+G+'NOTICE'+W+'] Finished LIKE cycle | waiting ' + str(cycle_grace_time_s) + ' until next cycle'))
 				time.sleep(cycle_grace_time_s)
 		time.sleep(5)
 		if liking_bool == True:
