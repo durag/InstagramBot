@@ -52,7 +52,7 @@ print('''
 ---------------------------------------------------------------''')
 
 
-print('Bot start time -> str(datetime.now().date()) + ' | ' + str(datetime.now().time()))
+print('Bot start time -> ' + str(datetime.now().date()) + ' | ' + str(datetime.now().time()))
 
 
 
