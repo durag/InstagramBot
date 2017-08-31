@@ -381,7 +381,7 @@ try:
 	cycle_grace_time_s = (((24 - (( 60 * (x / 120)) / 60)) * 60) * 60) / (x / 120)
 
 	print('[' + str(datetime.now().date()) + '|' + str(datetime.now().time()) + '] ['+C+'INFO'+W+'] There will be a total of ' + str(x/120) + ' cycles')
-	print('[' + str(datetime.now().date()) + '|' + str(datetime.now().time()) + '] ['+C+'INFO'+W+'] You cyclic grace period will be -> ' + str(cycle_grace_time_s) + ' seconds')
+	print('[' + str(datetime.now().date()) + '|' + str(datetime.now().time()) + '] ['+C+'INFO'+W+'] Your cyclic grace period will be -> ' + str(cycle_grace_time_s) + ' seconds')
 
 
 	while 1:
