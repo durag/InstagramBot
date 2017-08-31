@@ -54,6 +54,17 @@ print('''
 
 print('Bot start time -> ' + str(datetime.now().date()) + ' | ' + str(datetime.now().time()))
 
+if len(sys.argv) < 4:
+	print('Usage: python ' + str(sys.argv[0]) + ' [USERNAME] [PASSWORD] [PROTOCOL]\n')
+	print('Protocol:')
+	print('	1 - Follow 120 pages/day')
+	print('	2 - Follow 240 pages/day')
+	print('	3 - Follow 360 pages/day')
+	print('	4 - Follow 480 pages/day')
+	print('	5 - Follow 600 pages/day')
+	print('	6 - Follow 720 pages/day')
+	print('	7 - Follow 840 pages/day')
+
 
 
 # Now lets put it into one line
@@ -102,8 +113,8 @@ class bot:
 	
 # FUNCTION TO GET PROGRESS
 def get_progress():
-	print('[' + str(datetime.now().date()) + '|' + str(datetime.now().time()) + '] ['+C+'INFO'+W+'] Users followed by bot -> ' + str(len(followed_users)))
-	print('[' + str(datetime.now().date()) + '|' + str(datetime.now().time()) + '] ['+C+'INFO'+W+'] Media liked by bot -> ' + str(len(liked_media)))
+	print('[' + str(datetime.now().date()) + '|' + str(datetime.now().time()) + '] ['+C+'INFO'+W+'] Users followed by bot -> ' + str(len(followed_users)) + '/' + str(len(ready_to_follow)))
+	print('[' + str(datetime.now().date()) + '|' + str(datetime.now().time()) + '] ['+C+'INFO'+W+'] Media liked by bot -> ' + str(len(liked_media)) + '/' + str(len(ready_to_like)))
 
 
 
