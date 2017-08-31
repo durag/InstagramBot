@@ -1,10 +1,6 @@
-import atexit
-import datetime
 import itertools
 import json
-import logging
 import random
-import signal
 import urllib2
 import sys
 import time
