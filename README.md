@@ -43,6 +43,7 @@ Once you have filled out your requirements, your screen should look similar to t
 ![alt text](https://github.com/the-red-team/InstagramBot/blob/master/create_filled.JPG "Starting a new bot")
 
 Click `submit` and you should be taken to a "Thank You" screen like this
+
 ![alt text](https://github.com/the-red-team/InstagramBot/blob/master/thankyou.JPG "Thank you")
 
 # Check your bot status
