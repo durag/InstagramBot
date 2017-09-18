@@ -22,6 +22,7 @@ You will be given the following screen
 # Starting a bot
 Click on `start new bot`
 You will given the following screen
+
 ![alt text](https://github.com/the-red-team/InstagramBot/blob/master/create_empty.JPG "Starting a new bot")
 
 Fill in your instagram login information using the `username` and `password` boxes.
