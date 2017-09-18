@@ -17,12 +17,12 @@ controlling your account and following other users, are most likely all real int
 ## Instructions
 Using your web browser, navigate to http://185.14.184.125
 You will be given the following screen
-![alt text](https://github.com/the-red-team/InstagramBot/blob/master/main.jpg "Main Screen")
+![alt text](https://github.com/the-red-team/InstagramBot/blob/master/main.JPG "Main Screen")
 
 # Starting a bot
 Click on `start new bot`
 You will given the following screen
-![alt text](https://github.com/the-red-team/InstagramBot/blob/master/create_empty.jpg "Starting a new bot")
+![alt text](https://github.com/the-red-team/InstagramBot/blob/master/create_empty.JPG "Starting a new bot")
 
 Fill in your instagram login information using the `username` and `password` boxes.
 
@@ -42,7 +42,7 @@ Once you have filled out your requirements, your screen should look similar to t
 ![alt text](https://github.com/the-red-team/InstagramBot/blob/master/create_filled.JPG "Starting a new bot")
 
 Click `submit` and you should be taken to a "Thank You" screen like this
-![alt text](https://github.com/the-red-team/InstagramBot/blob/master/thankyou.jpg "Thank you")
+![alt text](https://github.com/the-red-team/InstagramBot/blob/master/thankyou.JPG "Thank you")
 
 # Check your bot status
 From the main screen, click the button that says `view bot progress`
