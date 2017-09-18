@@ -17,14 +17,12 @@ controlling your account and following other users, are most likely all real int
 ## Instructions
 Using your web browser, navigate to http://185.14.184.125
 You will be given the following screen
-![GitHub Logo](main.jpg)
-Format: ![Alt Text](url)
+![alt text](https://github.com/the-red-team/InstagramBot/master/main.jpg "Main Screen")
 
 # Starting a bot
 Click on `start new bot`
 You will given the following screen
-![GitHub Logo](create_empty.jpg)
-Format: ![Alt Text](url)
+![alt text](https://github.com/the-red-team/InstagramBot/master/create_empty.jpg "Starting a new bot")
 
 Fill in your instagram login information using the `username` and `password` boxes.
 
@@ -41,12 +39,10 @@ The last `Yes` or `No` radio buttons at the bottom indicate to the bot whether o
 to post comments for you.
 
 Once you have filled out your requirements, your screen should look similar to this.
-![GitHub Logo](create_filled.jpg)
-Format: ![Alt Text](url)
+![alt text](https://github.com/the-red-team/InstagramBot/master/create_filled.jpg "Starting a new bot")
 
 Click `submit` and you should be taken to a "Thank You" screen like this
-![GitHub Logo](thankyou.jpg)
-Format: ![Alt Text](url)
+![alt text](https://github.com/the-red-team/InstagramBot/master/thankyou.jpg "Thank you")
 
 # Check your bot status
 From the main screen, click the button that says `view bot progress`
