@@ -1,7 +1,7 @@
 # This is a free Instagram bot web service
 
 ## Description
-This is a feww webservice which is used to automate your Instagram account.
+This is a free webservice which is used to automate your Instagram account.
 Contrary to the average user assumption, this service does NOT give you bot followers.
 
 The purpose of this service is to login to your account using the set of logins credentials you provide 
