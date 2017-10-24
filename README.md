@@ -15,7 +15,7 @@ This up side to this service compared to a service which just gives you bot foll
 controlling your account and following other users, are most likely all real interative users. You don't have to worry about bots following you back because most Instagram botting services don't have a "follow back" feature because...what's the point of that?
 
 ## Instructions
-Using your web browser, navigate to https://185.14.184.125
+Using your web browser, navigate to http://185.14.184.125:8080
 You will be given the following screen
 ![alt text](https://github.com/the-red-team/InstagramBot/blob/master/main.JPG "Main Screen")
 
