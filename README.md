@@ -8,8 +8,8 @@ The purpose of this service is to login to your account using the set of logins 
 and while logged in to YOUR account, automatically follow and like Instagram pages and posts. In doing so, the hope is that the 
 users who are followed by your page will notice your Instagram page and follow you back.
 
-After 2 days, the bot will automatically UNFOLLOW the pages it has followed so the list of pages YOU are following, will never be 
-greater than 2 days worth of bot following.
+After 7 days, the bot will automatically UNFOLLOW the pages it has followed so the list of pages YOU are following, will never be 
+greater than 7 days worth of bot following.
 
 This up side to this service compared to a service which just gives you bot followers is, the followers your receive from the bot 
 controlling your account and following other users, are most likely all real interative users. You don't have to worry about bots following you back because most Instagram botting services don't have a "follow back" feature because...what's the point of that?
